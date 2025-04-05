@@ -1,0 +1,23 @@
+theme: jekyll-theme-cayman
+title: "March Madness Prediction Challenge"
+description: "Machine learning models to predict NCAA basketball tournament outcomes"
+show_downloads: true
+google_analytics: 
+github:
+  repository_url: https://github.com/yourusername/march-madness-prediction
+  is_project_page: true
+  owner_name: Your Name
+  repository_name: march-madness-prediction
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Methodology
+    url: /methodology
+  - title: Models & Results
+    url: /results
+  - title: Code & Implementation
+    url: /code
+  - title: GitHub
+    url: https://github.com/yourusername/march-madness-prediction
