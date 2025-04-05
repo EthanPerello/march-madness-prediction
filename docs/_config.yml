@@ -6,8 +6,23 @@ google_analytics:
 github:
   repository_url: https://github.com/yourusername/march-madness-prediction
   is_project_page: true
-  owner_name: Your Name
+  owner_name: Ethan Perello
   repository_name: march-madness-prediction
+
+# Navigation
+nav:
+  - title: Home
+    url: /march-madness-prediction/
+  - title: Methodology
+    url: /march-madness-prediction/methodology
+  - title: Results
+    url: /march-madness-prediction/results
+  - title: Code
+    url: /march-madness-prediction/code
+
+# Basic site settings
+baseurl: "/march-madness-prediction"
+authors: "Ethan Perello & Samuel Kellum"
 
 # Navigation
 navigation:

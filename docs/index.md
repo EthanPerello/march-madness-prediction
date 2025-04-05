@@ -8,7 +8,7 @@ description: Machine learning models to predict NCAA basketball tournament outco
 
 ## Predicting NCAA Tournament Outcomes with Machine Learning
 
-![Basketball Tournament](assets/basketball.jpg)
+![Basketball Tournament](/march-madness-prediction/assets/basketball.jpg)
 
 This project explores the use of machine learning to predict outcomes in the NCAA Men's Basketball Tournament (March Madness). We developed multiple prediction models that leverage historical game data, team performance metrics, expert ratings, and betting market information.
 

@@ -1,53 +1,50 @@
-{% raw %}
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
+
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <style>
-      .main-nav {
-        background-color: #159957;
-        background-image: linear-gradient(120deg, #155799, #159957);
-        text-align: center;
+      .main-navigation {
+        background-color: #2c3e50;
         padding: 10px 0;
+        text-align: center;
+        margin-bottom: 20px;
       }
-      .main-nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-      .main-nav li {
-        display: inline-block;
-        margin: 0 15px;
-      }
-      .main-nav a {
+      .main-navigation a {
         color: white;
+        margin: 0 15px;
         text-decoration: none;
         font-weight: bold;
-        padding: 5px 10px;
-        border-radius: 4px;
-        transition: background-color 0.3s;
+        font-size: 18px;
       }
-      .main-nav a:hover {
-        background-color: rgba(255, 255, 255, 0.2);
+      .main-navigation a:hover {
+        text-decoration: underline;
       }
-      .authors-credit {
+      .authors-box {
         text-align: center;
         font-weight: bold;
         font-style: italic;
-        margin-top: 10px;
-        font-size: 1.1em;
+        margin: 15px 0;
+        font-size: 18px;
+        color: #1e6bb8;
       }
     </style>
+    {% include head-custom.html %}
   </head>
   <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <div class="authors-credit">By Ethan Perello & Samuel Kellum</div>
+      <div class="authors-box">By Ethan Perello & Samuel Kellum</div>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
@@ -57,25 +54,22 @@
       {% endif %}
     </header>
 
-    <nav class="main-nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="methodology.html">Methodology</a></li>
-        <li><a href="results.html">Results</a></li>
-        <li><a href="code.html">Code</a></li>
-      </ul>
-    </nav>
+    <div class="main-navigation">
+      <a href="{{ site.baseurl }}/">Home</a>
+      <a href="{{ site.baseurl }}/methodology">Methodology</a>
+      <a href="{{ site.baseurl }}/results">Results</a>
+      <a href="{{ site.baseurl }}/code">Code</a>
+    </div>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">Ethan Perello</a>.</span>
         {% endif %}
-        <span class="site-footer-credits">Project by Ethan Perello & Samuel Kellum.</span>
+        <span class="site-footer-credits">This project was developed by <strong>Ethan Perello & Samuel Kellum</strong>.</span>
       </footer>
     </main>
   </body>
 </html>
-{% endraw %}

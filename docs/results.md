@@ -44,7 +44,7 @@ We developed multiple machine learning models to predict NCAA tournament outcome
   </table>
 </div>
 
-![Model Performance Comparison](assets/model_comparison.jpg)
+![Model Performance Comparison](/march-madness-prediction/assets/model_comparison.png)
 
 ## Detailed Model Analysis
 
@@ -94,13 +94,13 @@ Our advanced models incorporated additional data sources and extended the histor
 - **Average Log Loss**: 0.488
 - **Key Insight**: Better at capturing non-linear relationships
 - **Decision Tree Visualization**:
-  ![XGBoost Decision Tree](assets/xgboost_tree.jpg)
+  ![XGBoost Decision Tree](/march-madness-prediction/assets/feature_importance.png)
 
 ## Feature Importance Analysis
 
 Our analysis of feature importance revealed several key insights:
 
-![Feature Importance](assets/feature_importance.jpg)
+![Feature Importance](/march-madness-prediction/assets/feature_importance.png)
 
 1. **Betting Odds Feature**: Championship win probability difference was the single most predictive feature, highlighting the wisdom of crowds in sports prediction
 
@@ -115,7 +115,7 @@ Our analysis of feature importance revealed several key insights:
 
 The graph below shows how our best model performed across different tournament years:
 
-![Year by Year Performance](assets/yearly_performance.jpg)
+![Year by Year Performance](/march-madness-prediction/assets/yearly_performance.png)
 
 Key observations:
 - Most consistent performance in recent years
