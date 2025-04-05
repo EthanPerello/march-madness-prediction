@@ -12,6 +12,11 @@ description: Machine learning models to predict NCAA basketball tournament outco
 
 This project explores the use of machine learning to predict outcomes in the NCAA Men's Basketball Tournament (March Madness). We developed multiple prediction models that leverage historical game data, team performance metrics, expert ratings, and betting market information.
 
+## About This Project
+
+This project was developed for a **Tulane University Machine Learning Course** and submitted to the 
+[March Machine Learning Mania 2023 Kaggle Competition](https://www.kaggle.com/competitions/march-machine-learning-mania-2023).
+
 ## Project Highlights
 
 - 🏆 Achieved a **0.459 log loss score**, outperforming the previous year's winning submission (0.515)

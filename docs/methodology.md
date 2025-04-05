@@ -43,7 +43,7 @@ Our models leveraged several key data sources:
 
 We engineered features by calculating the difference between paired teams across multiple dimensions:
 
-![Feature Engineering Process](/march-madness-prediction/assets/feature_importance.png)
+![Feature Engineering Process](/march-madness-prediction/assets/feature_engineering.png)
 
 Key features included:
 - Seed difference

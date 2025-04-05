@@ -6,6 +6,9 @@ description: Detailed results of our March Madness prediction models
 
 # Models & Results
 
+This project was developed for a **Tulane University Machine Learning Course** and submitted to the 
+[March Machine Learning Mania 2023 Kaggle Competition](https://www.kaggle.com/competitions/march-machine-learning-mania-2023).
+
 ## Model Performance Summary
 
 We developed multiple machine learning models to predict NCAA tournament outcomes. The table below summarizes the performance of each model measured by average log loss (lower is better):
@@ -94,7 +97,7 @@ Our advanced models incorporated additional data sources and extended the histor
 - **Average Log Loss**: 0.488
 - **Key Insight**: Better at capturing non-linear relationships
 - **Decision Tree Visualization**:
-  ![XGBoost Decision Tree](/march-madness-prediction/assets/feature_importance.png)
+  ![XGBoost Decision Tree](/march-madness-prediction/assets/xgboost_tree.png)
 
 ## Feature Importance Analysis
 
